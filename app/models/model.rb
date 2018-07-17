@@ -1,12 +1,16 @@
 class Dog 
-  @@all=0 
+  @@all=[] 
   attr_accessor :name, :breed, :age
   def initialize(name,breed,age)
-    @@all+=1 
+    @name=name
+    @breed=breed
+    @age=age
+    @@all << name
   end
   def self.all
     return @@all
   end
+  
 end
 # Create a new file in the models directory to create a dog class. This class
 # should have name, breed, and age attributes which can be set on initialization.
