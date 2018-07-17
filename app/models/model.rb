@@ -1,6 +1,6 @@
 class Dog 
-  def initialize(name,age)
-  # Replace with Dog clas
+  def initialize(name,breed,age)
+  
 end
 # Create a new file in the models directory to create a dog class. This class
 # should have name, breed, and age attributes which can be set on initialization.
