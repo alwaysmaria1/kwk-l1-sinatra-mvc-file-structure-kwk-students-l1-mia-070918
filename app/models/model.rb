@@ -18,4 +18,4 @@ end
 # also keep track of each instance of dog created, as well as a class method
 # `all` to return an array of those instances.
 
-gret=Dog.new("gret","red","5")
+# gret=Dog.new("gret","red","5")
