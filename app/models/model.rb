@@ -4,10 +4,6 @@ class Dog
   def initialize(name,breed,age)
     @@instance_all+=1 
   end
-  
-  def Dog.all;count
-  end 
-
 end
 # Create a new file in the models directory to create a dog class. This class
 # should have name, breed, and age attributes which can be set on initialization.
