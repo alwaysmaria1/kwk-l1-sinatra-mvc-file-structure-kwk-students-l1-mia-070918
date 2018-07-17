@@ -5,7 +5,7 @@ class Dog
     @@instance_all+=1 
   end
   
-  def Dog.all.count
+  def Dog.all;count
   end 
 
 end
