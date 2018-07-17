@@ -1,8 +1,8 @@
 class Dog 
-  @@instance_all=0 
+  @@all=0 
   attr_accessor :name, :breed, :age
   def initialize(name,breed,age)
-    @@instance_all+=1 
+    @@all+=1 
   end
 end
 # Create a new file in the models directory to create a dog class. This class
